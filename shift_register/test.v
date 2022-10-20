@@ -166,8 +166,7 @@ initial
 begin
     $dumpvars;
     $timeformat(-9, 3, " ns", 10);
-    $display("");
-    $display("Starting tests...");
+    $display("\nStarting tests...");
 
     check_load_enabled;
     check_reset_enabled;
